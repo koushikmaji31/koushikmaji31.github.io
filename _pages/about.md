@@ -7,16 +7,7 @@ redirect_from:
   - /about.html
 ---
 
----
-permalink: /
-title: "Koushik Maji - Machine Learning Researcher | AI & Mathematics Enthusiast"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
-I am **Koushik Maji**, a Machine Learning Researcher at **BRAIN Lab, IIT Hyderabad**, specializing in **generative modeling of spatio-temporal data**. My research focuses on **temporal point processes** with applications in enhancing resiliency in **Open Radio Access Networks (O-RAN)** for the **NEWS Lab**. With a strong academic background, I hold an **M.Tech in Artificial Intelligence** from **IIT Hyderabad**, an **M.Sc. in Mathematics & Computing** from **IIT Dhanbad**, and a **B.Sc. in Mathematics** from **Presidency University, Kolkata**.
+I am **Koushik Maji**, a Machine Learning Researcher at **BRAIN Lab, IIT Hyderabad**, specializing in **generative modeling of spatio-temporal data**. My research focuses on **temporal point processes**, I hold an **M.Tech in Artificial Intelligence** from **IIT Hyderabad**, an **M.Sc. in Mathematics & Computing** from **IIT Dhanbad**, and a **B.Sc. in Mathematics** from **Presidency University, Kolkata**.
 
 I have a deep interest in **machine learning, deep learning, and generative models**, as well as **mathematical modeling and statistics**. I enjoy exploring **web development, problem-solving, and new technologies** that push the boundaries of artificial intelligence. Beyond academics, I am passionate about music and enjoy both playing and listening to it.
 
