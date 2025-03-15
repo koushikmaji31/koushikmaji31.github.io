@@ -57,7 +57,7 @@ redirect_from:
 
 ---
 
-## Positions of Responsibility
+<!-- ## Positions of Responsibility
 
 ### Host of Mathematics Outreach Program
 - Coordinated a 3-day Mathematics Outreach Program for high school students at Presidency University, Kolkata.  
@@ -77,4 +77,4 @@ redirect_from:
 
 - **JPMorgan Chase & Co. Quantitative Research Virtual Experience Program (Forage):**  
   Completed a simulation focused on quantitative research methods by analyzing a book of loans to estimate customer default probabilities and converting FICO scores into categorical data using dynamic programming.  
-  *Duration: 2019 – Present; October 7 & 8, 2024*
+  *Duration: 2019 – Present; October 7 & 8, 2024* -->
