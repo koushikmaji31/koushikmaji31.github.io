@@ -51,7 +51,7 @@ Given a probability space $(\Omega, \mathcal{F}, \mathbb{P})$:
 **Definition (Markov Chain)**:
 A stochastic process $\{X_{t}:t\in\mathcal{T}\}$ is called a Markov chain if for every $t\in\mathcal{T}$, the past and future are conditionally independent given the present.
 i.e., for any $m,n\in\mathbb{N},$
-$(X_{s}:s<t) \perp (X_{s}:s>t) | X_{t}.$
+$$ (X_{s}:s<t) \perp (X_{s}:s>t) | X_{t}. $$
 This means for any $s_{1}<\cdot\cdot\cdot<s_{m}<t, t<t_{1}<\cdot\cdot\cdot<t_{n}, x_{1},...,x_{m}\in\mathbb{R}, y_{1},...,y_{n}\in\mathbb{R},$ and $x\in\mathbb{R}.$
 $$ \mathbb{P}(X_{s_{1}}\le x_{1},...,X_{s_{m}}\le x_{m}, X_{t}\le x, X_{t_{1}}\le y_{1},...,X_{t_{n}}\le y_{n}) $$
 $$ = \mathbb{P}(X_{s_{1}}\le x_{1},...,X_{s_{m}}\le x_{m}, X_{t}\le x) \cdot \mathbb{P}(X_{t_{1}}\le y_{1},...,X_{t_{n}}\le y_{n}|X_{t}=x). $$
@@ -117,7 +117,8 @@ with the initial condition $S_{0}=0$. The state space $\mathcal{X}=\mathbb{Z}$ (
 The Markov property holds because the next state $S_{n+1}$ is determined by:
 $$ S_{n+1} = S_{n} + X_{n+1} $$
 Here, $X_{n+1}$ is independent of all previous $X_{i}$, and thus the distribution of $S_{n+1}$ depends only on the current state $S_{n}$, not on the past states $S_{1},S_{2},...,S_{n-1}.$ The transition probabilities are:
-$$ \mathbb{P}(S_{n+1}=k | S_{n}=j, S_{n-1}=i_{n-1},...,S_{1}=i_{1}) = \mathbb{P}(X_{n+1}=k-j) = \begin{cases} p & \text{if } k=j+1 \\ 1-p & \text{if } k=j-1 \\ 0 & \text{otherwise} \end{cases} $$
+$$ \mathbb{P}(S_{n+1}=k | S_{n}=j, S_{n-1}=i_{n-1},...,S_{1}=i_{1}) = \mathbb{P}(X_{n+1}=k-j) $$
+$$ = \begin{cases} p & \text{if } k=j+1 \\ 1-p & \text{if } k=j-1 \\ 0 & \text{otherwise} \end{cases} $$
 Since this probability depends only on $j=S_{n}$, the process $\{S_{n}\}$ satisfies the Markov property, confirming it as a DTMC.
 
 `[Image: Figure 2: Random walk trajectory illustrating state transitions.]`
@@ -138,7 +139,6 @@ $$ P_{i,i+1} = p $$
 $$ P_{i,j} = 0 \quad \text{for } j \ne i-1, i+1 $$
 To illustrate, consider a random walk restricted to a finite state space, say $\mathcal{X}=\{-2,-1,0,1,2\}$, with reflecting boundaries (i.e., from -2, the walk moves to -1 with probability 1, and from 2, to 1 with probability 1). Assuming $p=0.5$ for interior states, the transition matrix is:
 $$ P = \begin{pmatrix} 0 & 1 & 0 & 0 & 0 \\ 0.5 & 0 & 0.5 & 0 & 0 \\ 0 & 0.5 & 0 & 0.5 & 0 \\ 0 & 0 & 0.5 & 0 & 0.5 \\ 0 & 0 & 0 & 1 & 0 \end{pmatrix} $$
-*(Note: The matrix in the PDF has dimensions that seem slightly off for the state space $\{-2,-1,0,1,2\}$. Assuming it should be a 5x5 matrix for states indexed -2 to 2 or 0 to 4. The provided matrix has 4 columns in the first row, 5 in the next three, and then 5 in the last. I've corrected it to a standard 5x5 representation based on the description.)*
 
 ### 3.1 Properties of Transition Probability Matrices
 
