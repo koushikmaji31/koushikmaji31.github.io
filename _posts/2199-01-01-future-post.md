@@ -15,7 +15,7 @@ tags:
 ## Contents
 
 1.  Markov Chain
-    1.1. Motivation
+    1.1. Motivation k
     1.2. Definition
     1.3. Discrete-Time Markov Chain (DTMC)
         1.3.1. Definition (DTMC taking Finitely Many Values)
