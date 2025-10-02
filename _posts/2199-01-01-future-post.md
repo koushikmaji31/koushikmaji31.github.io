@@ -13,9 +13,9 @@ tags:
   - Random Walk
 ---
 
-## Contents
+This a blog post which covers basics of Markov Chain and how it shapes our daily life and modern machine learining.
 
-This a blog post which covers basics of Markov Chain and how it shapes our 
+## Contents
 
 1.  Markov Chain  
     1.1. Motivation k  
