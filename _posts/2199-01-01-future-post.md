@@ -63,7 +63,7 @@ In words, the future state depends solely on the present state and not on the se
 ### 1.3 Discrete-Time Markov Chain (DTMC)
 
 A discrete-time stochastic process is a sequence of random variables $\{X_{n}:n\ge1\}$ indexed by nonnegative integers. The set of possible values that each $X_{n}$ can take is called the state space, denoted by S, which is assumed to be discrete (for example, $\mathbb{Z}$ or a finite set). A discrete-time Markov chain (DTMC) is a discrete-time stochastic process $\{X_{n}:n\ge1\}$ taking values in S that satisfies the Markov property.
-i.e, for any $n\in\mathbb{N}$
+i.e, for any $ n\in\mathbb{N} $
 $$ (X_{1},...,X_{n-1}) \perp (X_{n+1},X_{n+2},...) | X_{n} $$
 Now if the state space S is finite we call this DTMC taking Finitely Many Values.
 
