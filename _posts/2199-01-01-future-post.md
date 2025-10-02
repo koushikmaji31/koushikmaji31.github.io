@@ -49,7 +49,7 @@ In probability theory, an independent and identically distributed (iid) process 
 
 ### 1.2 Definition
 
-Given a probability space $$(\Omega, \mathcal{F}, \mathbb{P})$$:
+Given a probability space $$ (\Omega, \mathcal{F}, \mathbb{P}) $$:
 
 **Definition (Markov Chain)**:
 A stochastic process $\{X_{t}:t\in\mathcal{T}\}$ is called a Markov chain if for every $t\in\mathcal{T}$, the past and future are conditionally independent given the present.
