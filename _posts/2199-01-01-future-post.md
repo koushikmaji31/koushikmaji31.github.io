@@ -2,6 +2,7 @@
 title: 'Understanding Markov Chains: Lecture Notes'
 date: 2025-03-07
 permalink: /posts/2025/03/markov-chains-tutorial/
+mathjax: true
 tags:
   - Markov Chains
   - Stochastic Processes
