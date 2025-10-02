@@ -14,22 +14,24 @@ tags:
 
 ## Contents
 
-1.  Markov Chain
-    1.1. Motivation k
-    1.2. Definition
-    1.3. Discrete-Time Markov Chain (DTMC)
-        1.3.1. Definition (DTMC taking Finitely Many Values)
-        1.3.2. Alternate Viewpoint of DTMC
-2.  Examples of Discrete-Time Markov Chains
-    2.1. Snake and Ladder Game
+This a blog post which covers basics of Markov Chain and how it shapes our 
+
+1.  Markov Chain  
+    1.1. Motivation k  
+    1.2. Definition  
+    1.3. Discrete-Time Markov Chain (DTMC)  
+        -- 1.3.1. Definition (DTMC taking Finitely Many Values)  
+        -- 1.3.2. Alternate Viewpoint of DTMC
+2.  Examples of Discrete-Time Markov Chains  
+    2.1. Snake and Ladder Game  
     2.2. Random Walk
-3.  Transition Probability Matrix
-    3.1. Properties of Transition Probability Matrices
+3.  Transition Probability Matrix  
+    3.1. Properties of Transition Probability Matrices  
     3.2. Interpretation of TPM Rows
-4.  n-Step Transition Probabilities
-    4.1. Definition
-    4.2. Matrix Powers
-    4.3. Example
+4.  n-Step Transition Probabilities  
+    4.1. Definition  
+    4.2. Matrix Powers  
+    4.3. Example  
 5.  Time-Homogeneous Markov Chains
 6.  Chapman-Kolmogorov Equation
     6.1. Example: Computing Multi-Step Transitions
